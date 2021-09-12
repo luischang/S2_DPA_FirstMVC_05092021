@@ -13,8 +13,6 @@
     <Folder Include="Areas\Finanzas\Data\" />
     <Folder Include="Areas\Finanzas\Models\" />
     <Folder Include="Areas\Finanzas\Views\" />
-    <Folder Include="Areas\Marketing\Data\" />
-    <Folder Include="Areas\Marketing\Models\" />
     <Folder Include="Areas\Tesoreria\Controllers\" />
     <Folder Include="Areas\Tesoreria\Data\" />
     <Folder Include="Areas\Tesoreria\Models\" />
