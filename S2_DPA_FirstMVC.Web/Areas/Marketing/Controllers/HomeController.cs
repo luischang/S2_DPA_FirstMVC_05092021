@@ -17,6 +17,28 @@ namespace S2_DPA_FirstMVC.Web.Areas.Marketing.Controllers
             return View();
         }
 
+        public IActionResult ProductsViewModel() 
+        {
+            var products = GetJsonProducts();
+            return View(products);
+        }
+
+        public IActionResult ProductsViewData()
+        {
+            var products = GetJsonProducts();
+            ViewData["ProductList"] = products;
+            ViewData["FullName"] = "Luis Chang";
+            return View();
+        }
+
+        public IActionResult ProductsViewBag() 
+        {
+            var products = GetJsonProducts();
+            ViewBag.ProductList = products;
+            
+            return View();
+        }
+
 
 
 
